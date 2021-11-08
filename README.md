@@ -8,7 +8,10 @@
 整个项目中由“src” 和 “web”两个主要大包组成。
 （1）在src包中,我们根据Java的三层架构模式，将其分成以下各个文件夹保存相应的各个功能文件。
 以下为src中各个子包：
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/1108/092639_524fe332_9204636.png "屏幕截图.png")
+
+
 以下介绍各个项目中各个包所放的文件的功能：
 
  ①dao层（MyBatis框架)–>定义了对于数据库最基本的CRUD操作，包含实现增删改查功能的函数，需要输入sql函数对数据库进行访问
@@ -24,7 +27,11 @@
  ⑥druid.properties文件，用于链接MySQL数据库
 
 (2)在web包中，用于放置前端UI展示页面和jsp文件
+
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/1108/092715_9e6b4790_9204636.png "屏幕截图.png")
+
+
 其中web中包含前端UI中所需要用到的css、font、js、jar包和jsp文件，其中WEB-INF用于存放jar包
 
 
